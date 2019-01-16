@@ -1,0 +1,22 @@
+.qoute{
+    width: 300px;
+    border-radius: 50px;
+    height: auto;
+    padding: 20px;
+    margin-left: 50px;
+    background-color: royalblue;
+}
+.image{
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 300px;
+    width: 400px;
+}
+.video{
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    widows: 400px;
+    width: 400px;
+}

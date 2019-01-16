@@ -1,0 +1,16 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div *ngIf="data">
+  <h1>Content</h1>
+  <hr>
+  <h2>Start your day on a positive note :)</h2>
+  <div style="max-width:600px;" *ngFor="let element of data">
+    <div class="qoute">{{element.qoute}}</div>
+    <img class="image" src={{element.imageUrl}} alt="">
+    <video class="video" controls>
+      <source src={{element.video}} type="video/mp4">Your browser does not support HTML5 video.
+ </video>
+  </div>
+  
+</div>
+
+<router-outlet></router-outlet>
